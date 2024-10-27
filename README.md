@@ -6,6 +6,10 @@ docker build -t fast_api .
 
 docker run --name fast_api_container -p 8000:80 fast_api
 
+OR
+
+docker-compose up
+
 ```
 
 Then go to browser, type in http://0.0.0.0:8000/ to get 
